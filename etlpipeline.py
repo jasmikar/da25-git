@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 # insert(0, '..'): Adds a new directory to the beginning of the Python path list (sys.path). Here, '..' refers to the parent directory.
 import sys; sys.path.insert(0, '..')
 # After modifying the Python path using sys.path.insert(0, '..'), the code then imports the get_conn function from a module named data.
-from data import get_conn
+from scripts.data import get_conn
 
 
 # EXTRACT
