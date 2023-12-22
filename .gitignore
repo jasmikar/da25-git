@@ -1,0 +1,8 @@
+
+__pycache__/
+.pynb_checkpoints/
+.jupyter/
+.DS_Store
+sources/
+scripts/
+snowflake.env
